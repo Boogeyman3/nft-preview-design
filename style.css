@@ -1,0 +1,69 @@
+:root{
+    
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+--Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+--Very-dark-blue-line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+
+
+}
+
+*{box-sizing: border-box;}
+
+body{
+    font-family: sans-serif;
+    background-color: var(--Very-dark-blue-main-BG);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  0 auto;
+}
+.container{
+    background-color: var(--Very-dark-blue-card-BG);
+    max-width: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+.equil{
+    width: 100%;
+}
+h2{
+    color: var(--White);
+}
+.our{
+    color: var(--Very-dark-blue-line);
+}
+.ETH{
+    border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+    color: var(--Cyan);
+}
+.days{
+    color:var(--Very-dark-blue-line) ;
+}
+.person{
+ 
+    display: flex;
+    padding-top: 0.5rem;
+    
+}
+.person img{
+    border-radius: 1px solid white;
+    width: 50px;
+}
+
+.person span {
+    color: var(--Very-dark-blue-line);
+}
+.person p{
+    color: white;
+    margin-left: 0.7rem;
+}
